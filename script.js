@@ -89,7 +89,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         movementInput.value = "";
-        resultContainer.textContent = "";
 
         lectureSelect.value = selectedLecture;
     }
