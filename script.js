@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             var similarity = calculateSimilarity(userMovement, correctMovement);
             if (similarity >= 0.8) {
-                resultContainer.textContent = "Presque ! La réponse correcte était : " + correctMovement;
+                resultContainer.textContent = "Bonne réponse ! (FDF)";
             } else {
                 resultContainer.textContent = "Mauvaise réponse ! La réponse correcte était : " + correctMovement;
             }
