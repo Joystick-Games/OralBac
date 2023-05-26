@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             var similarity = calculateSimilarity(userMovement, correctMovement);
             if (similarity >= 0.8) {
-                resultContainer.textContent = "Bonne réponse ! (FDF)";
+                resultContainer.textContent = "Bonne réponse !";
             } else {
                 resultContainer.textContent = "Mauvaise réponse ! La réponse correcte était : " + correctMovement;
             }
@@ -75,6 +75,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Générer une nouvelle question
         generateQuestion();
+    });
+
+    movementInput.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+            submitButton.click();
+        }
     });
 
     function generateQuestion() {
