@@ -55,10 +55,14 @@ document.addEventListener("DOMContentLoaded", function() {
     var submitButton = document.getElementById("submit-button");
     var resultContainer = document.getElementById("result-container");
 
+    var currentLectureIndex = 0;
+
     submitButton.addEventListener("click", function() {
         var selectedLecture = lectureSelect.value;
         var userMovement = movementInput.value.trim().toLowerCase();
         var correctMovement = lectures[selectedLecture].toLowerCase();
+
+        
 
         if (userMovement === correctMovement) {
             resultContainer.textContent = "Bonne réponse !";
@@ -77,8 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function generateQuestion() {
         var lectureKeys = Object.keys(lectures);
-        var randomIndex = Math.floor(Math.random() * lectureKeys.length);
-        var selectedLecture = lectureKeys[randomIndex];
+        var selectedLecture = lectureKeys[currentLectureIndex];
 
         lectureSelect.innerHTML = "";
         for (var i = 0; i < lectureKeys.length; i++) {
@@ -89,8 +92,14 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         movementInput.value = "";
+        //resultContainer.textContent = "";
 
         lectureSelect.value = selectedLecture;
+
+        currentLectureIndex++;
+        if (currentLectureIndex >= lectureKeys.length) {
+            currentLectureIndex = 0;
+        }
     }
 
     function calculateSimilarity(a, b) {
