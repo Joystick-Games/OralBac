@@ -63,11 +63,11 @@ document.addEventListener("DOMContentLoaded", function() {
         var correctMovement = lectures[selectedLecture].toLowerCase();
 
         if (userMovement === correctMovement) {
-            resultContainer.textContent = "Bonne réponse !";
+            resultContainer.innerHTML = "<span class='result-animation'>Bonne réponse !</span>";
         } else {
             var similarity = calculateSimilarity(userMovement, correctMovement);
             if (similarity >= 0.8) {
-                resultContainer.textContent = "Bonne réponse !";
+                resultContainer.innerHTML = "<span class='result-animation'>Bonne réponse !</span>";
             } else {
                 resultContainer.textContent = "Mauvaise réponse ! La réponse correcte était : " + correctMovement;
             }
