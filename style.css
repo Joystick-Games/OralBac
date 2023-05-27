@@ -89,3 +89,17 @@ body {
     font-weight: bold;
   }
 
+.result-animation {
+  animation: explode 1s ease-out;
+  animation-fill-mode: forwards;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateX(-2px); /* Adjust the translateX value as needed */
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+
+
