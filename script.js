@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "3. PREVOST, Manon Lescaut, 1731, La Rencontre avec Manon - M3": "les premières paroles échangées",
         "4. PREVOST, Manon Lescaut, 1731, La Dispute avec Tiberge - M1": "la définition du bonheur et de la vertu",
         "4. PREVOST, Manon Lescaut, 1731, La Dispute avec Tiberge - M2": "la manière dont il affirme son droit à l’amour avec Manon",
+        "4. PREVOST, Manon Lescaut, 1731, La Dispute avec Tiberge - M3": "la condamnation de Tiberge",
         "5. PREVOST, Manon Lescaut, 1731, La Mort de Manon - M1": "le silence et le renoncement de Des Grieux",
         "5. PREVOST, Manon Lescaut, 1731, La Mort de Manon - M2": "de la prostration à l’action",
         "5. PREVOST, Manon Lescaut, 1731, La Mort de Manon - M3": "la dimension rituelle et religieuse",
