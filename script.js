@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
         "3. PREVOST, Manon Lescaut, 1731, La Rencontre avec Manon - M3": "les premières paroles échangées",
         "4. PREVOST, Manon Lescaut, 1731, La Dispute avec Tiberge - M1": "la définition du bonheur et de la vertu",
         "4. PREVOST, Manon Lescaut, 1731, La Dispute avec Tiberge - M2": "la manière dont il affirme son droit à l’amour avec Manon",
-        "4. PREVOST, Manon Lescaut, 1731, La Dispute avec Tiberge - M3": "la condamnation de Tiberge",
         "5. PREVOST, Manon Lescaut, 1731, La Mort de Manon - M1": "le silence et le renoncement de Des Grieux",
         "5. PREVOST, Manon Lescaut, 1731, La Mort de Manon - M2": "de la prostration à l’action",
         "5. PREVOST, Manon Lescaut, 1731, La Mort de Manon - M3": "la dimension rituelle et religieuse",
@@ -48,7 +47,26 @@ document.addEventListener("DOMContentLoaded", function() {
         "16. Baudelaire, une Charogne - M3": "Le poète voyant",
         "17. Baudelaire, Le Poison - M1": "Le vin et son pouvoir de transformation",
         "17. Baudelaire, Le Poison - M2": "L’opium et la dilatation de l’espace et du temps",
-        "17. Baudelaire, Le Poison - M3": "La femme, entre Eros et Thanatos"
+        "17. Baudelaire, Le Poison - M3": "La femme, entre Eros et Thanatos",
+
+
+        "1. Les Liaisons Dangereuses Lettre 81 - Problematique": "En quoi l’autoportrait de la Marquise de Merteuil révèle un personnage Machiavélique qui détourne les codes moraux?",
+        "2. Albert CAMUS, L’Etranger, 1942, épilogue - Problematique": "Meursault est-il un anti-héros?",
+        "3. PREVOST, Manon Lescaut, 1731, La Rencontre avec Manon - Problematique": "Comment  Des  Grieux  fait-il  de  sa  rencontre  avec  Manon  un  événement fondateur ?",
+        "4. PREVOST, Manon Lescaut, 1731, La Dispute avec Tiberge - Problematique": "Comment Des Grieux, à travers ce monologue argumentatif, sanctifie-t-il la passion amoureuse ?",
+        "5. PREVOST, Manon Lescaut, 1731, La Mort de Manon - Problematique": "En quoi ce récit transforme-t-il Manon en figure idéalisée et Des Grieux en personnage pathétique?",
+        "6. Déclaration des droits de la femme et de la citoyenne - Problematique": "En quoi la tonalité polémique de ces deux textes vise-t-elle à défendre la cause des femmes ?",
+        "7. Olympe DE GOUGES, Postambule, La Déclaration des droits de la femme et de la citoyenne - Problematique": "En quoi la tonalité polémique de ce texte vise-t-elle à défendre la cause des femmes ?",
+        "8. Olympe DE GOUGES, Escalvage, La Déclaration des droits de la femme et de la citoyenne - Problematique": "En quoi la tonalité polémique de ce texte vise-t-elle à critiquer l’esclavage?",
+        "9. Montesquieu, De L’esprit des lois, 1748, Livre XV, chapitre 5 - Problematique": "Quelle voix l’ironie permet-elle de faire entendre?",
+        "10. Beaumarchais, Le Mariage de Figaro, 1785 - Problematique": "Quels sont les enjeux et les fonctions de ce monologue ?",
+        "11. Racine, Phèdre, acte I scène 3, 1677 - Problematique": "Comment Racine parvient-il à traduire l’intensité des émotions de Phèdre à travers cette scène?",
+        "12. Incendies, Wajdi Mouawad - Problematique": "En quoi l’ultime lettre de Nawal lui permet-elle d’assumer pleinement sa fonction maternelle et d’apaiser les crises ?",
+        "13. Juste la Fin du Monde, Jean Luc Lagarce, Prologue - Problematique": "De quelle manière Louis évoque-t-il sa famille et en quoi le prologue annonce-t-il la dimension tragique de la pièce?",
+        "14. Juste la Fin du Monde, Jean Luc Lagarce, Le souvenir des dimanches - Problematique": "De  quelle  manière  le  récit  de  la  Mère  ramène-t-il  aux  origines  de  la  tragédie familiale ?",
+        "15. Juste la Fin du Monde, Jean Luc Lagarce, Monologue d’Antoine - Problematique": "Comment la remémoration d’Antoine s’accompagne d’un travail réflexif  sur  les  rapports  familiaux?",
+        "16. Baudelaire, une Charogne - Problematique": "En quoi le mouvement, dans le poème, est-il à la source / la marque de la transformation poétique?",
+        "17. Baudelaire, Le Poison - Problematique": "Comment à travers ce poème, Baudelaire expose-t-il sa vision des femmes entre Spleen et Idéal?",
     };
 
     var lectureSelect = document.getElementById("lecture-select");
