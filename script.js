@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "3. PREVOST, Manon Lescaut, 1731, La Rencontre avec Manon - M3": "les premières paroles échangées",
         "4. PREVOST, Manon Lescaut, 1731, La Dispute avec Tiberge - M1": "la définition du bonheur et de la vertu",
         "4. PREVOST, Manon Lescaut, 1731, La Dispute avec Tiberge - M2": "la manière dont il affirme son droit à l’amour avec Manon",
+        "4. PREVOST, Manon Lescaut, 1731, La Dispute avec Tiberge - M3": "la condamnation de Tiberge",
         "5. PREVOST, Manon Lescaut, 1731, La Mort de Manon - M1": "le silence et le renoncement de Des Grieux",
         "5. PREVOST, Manon Lescaut, 1731, La Mort de Manon - M2": "de la prostration à l’action",
         "5. PREVOST, Manon Lescaut, 1731, La Mort de Manon - M3": "la dimension rituelle et religieuse",
@@ -48,6 +49,12 @@ document.addEventListener("DOMContentLoaded", function() {
         "17. Baudelaire, Le Poison - M1": "Le vin et son pouvoir de transformation",
         "17. Baudelaire, Le Poison - M2": "L’opium et la dilatation de l’espace et du temps",
         "17. Baudelaire, Le Poison - M3": "La femme, entre Eros et Thanatos",
+        "18. Baudelaire, La Chevelure - M1": "Le pouvoir evocatoire de la chevelure",
+        "18. Baudelaire, La Chevelure - M2": "L'apologie de l'exotisme'",
+        "18. Baudelaire, La Chevelure - M3": "Le reve comme ideal",
+        "19. Aragon, La Rose et le Reseda - M1": "Portrait croise de deux combattant opposes mais infailliblement unis",
+        "19. Aragon, La Rose et le Reseda - M2": "Une epopee pour mieux saisir l'effroi de la mise a mort",
+        "19. Aragon, La Rose et le Reseda - M3": "L'elegie vers une reconstruction apres le sacrifice des deux resistants et le desastre du fascisme",
 
 
         "1. Les Liaisons Dangereuses Lettre 81 - Problematique": "En quoi l’autoportrait de la Marquise de Merteuil révèle un personnage Machiavélique qui détourne les codes moraux?",
@@ -67,6 +74,8 @@ document.addEventListener("DOMContentLoaded", function() {
         "15. Juste la Fin du Monde, Jean Luc Lagarce, Monologue d’Antoine - Problematique": "Comment la remémoration d’Antoine s’accompagne d’un travail réflexif  sur  les  rapports  familiaux?",
         "16. Baudelaire, une Charogne - Problematique": "En quoi le mouvement, dans le poème, est-il à la source / la marque de la transformation poétique?",
         "17. Baudelaire, Le Poison - Problematique": "Comment à travers ce poème, Baudelaire expose-t-il sa vision des femmes entre Spleen et Idéal?",
+        "18. Baudelaire, La Chevelure - Problematique": "Quelle image de l'Ideal ce poeme offre-t-il?",
+        "19. Aragon, La Rose et le Reseda - Problematique": "En quoi la presence de l'heritage poetique permet-elle de prendre parti pour une revolte generale?",
     };
 
     var lectureSelect = document.getElementById("lecture-select");
