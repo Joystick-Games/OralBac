@@ -55,6 +55,9 @@ document.addEventListener("DOMContentLoaded", function() {
         "19. Aragon, La Rose et le Reseda - M1": "Portrait croise de deux combattant opposes mais infailliblement unis",
         "19. Aragon, La Rose et le Reseda - M2": "Une epopee pour mieux saisir l'effroi de la mise a mort",
         "19. Aragon, La Rose et le Reseda - M3": "L'elegie vers une reconstruction apres le sacrifice des deux resistants et le desastre du fascisme",
+        "20. David Diop, Afrique, mon Afrique - M1>": "David Diop convoque l'image d'une Afrique passée",
+        "20. David Diop, Afrique, mon Afrique - M2>": "les souffrances engendrées par l’esclavage",
+        "20. David Diop, Afrique, mon Afrique - M3>": "un processus lent mais avant tout inévitable: la liberté",
 
 
         "1. Les Liaisons Dangereuses Lettre 81 - Problematique": "En quoi l’autoportrait de la Marquise de Merteuil révèle un personnage Machiavélique qui détourne les codes moraux?",
@@ -76,6 +79,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "17. Baudelaire, Le Poison - Problematique": "Comment à travers ce poème, Baudelaire expose-t-il sa vision des femmes entre Spleen et Idéal?",
         "18. Baudelaire, La Chevelure - Problematique": "Quelle image de l'Ideal ce poeme offre-t-il?",
         "19. Aragon, La Rose et le Reseda - Problematique": "En quoi la presence de l'heritage poetique permet-elle de prendre parti pour une revolte generale?",
+        "20. David Diop, Afrique, mon Afrique - Problematique": "En quoi l'alchimie poetique dans ce poeme permet-elle d'esquisser la possibilité d'une dignité retrouve pour toute l'Afrique?"
     };
 
     var lectureSelect = document.getElementById("lecture-select");
